@@ -1,10 +1,10 @@
 import React from 'react';
-import styles from './LiveAuctions.module.scss';
+import styles from './Auctions.module.scss';
 import classNames from "classnames";
 import { Container, Grid, Select, MenuItem } from '@mui/material';
 import NftCard from '../card/Card';
 
-export default function LiveAuctions({cards=[]}) {
+export default function Auctions({cards=[]}) {
 
   return (
     <div className={classNames(styles.container)} maxWidth="xl">
