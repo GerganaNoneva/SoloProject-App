@@ -102,6 +102,10 @@ const decs= {
       {
          "title":"Digital Currency",
          "description":"You can get ETH, the digital currency that fuels transactions on the Ethereum blockchain, from a digital currency exchangeg"
+      },
+      {
+         "title":"Digital Currency",
+         "description":"You can get ETH, the digital currency that fuels transactions on the Ethereum blockchain, from a digital currency exchangeg"
       }
    ],
    "link":"www.google.com"

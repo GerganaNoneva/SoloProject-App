@@ -43,17 +43,12 @@
     border-radius: 30px;
     justify-content: center;
     height: 80%;
-
+    margin-bottom: 50px;
 }
 
-.containerStep:nth-child(2) {
-    margin-top: 50px;
-    margin-bottom: 50px;
-  }
-  
 
 .number {
-    background-color: #1D193C !important;
+    background-color: colors.$primary_main !important;
     border-radius: 30px 0 0 30px;
     align-items: center;
     justify-content: center;
