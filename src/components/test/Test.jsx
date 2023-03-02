@@ -9,7 +9,8 @@ import Avatar from "../avatar/Avatar"
 import User from "../user/User"
 import NftCard from "../card/Card"
 import Trending from "../trending/Trending"
-import LiveAuctions from "../auctions/Auctions";
+import Auctions from "../auctions/Auctions";
+import Footer from "../footer/Footer";
 
 const nftCards=[ {
    "name":"Ivy",
@@ -81,7 +82,8 @@ const card= {
 export default function Test() {
   return (
     <div className={classNames(styles.wrapper)}>
-      <LiveAuctions cards={nftCards}/>
+      <Header/>
+      <Footer/>
     </div>
   );
 }
@@ -91,4 +93,5 @@ export default function Test() {
 // <Trending cards={nftCards}/>
 //
 //     <User name="terika77" info="125 items" avatar='images/avatar.png' verified='true'/>
-
+// <Auctions cards={nftCards}/>
+// 
