@@ -9,7 +9,7 @@ import Avatar from "../avatar/Avatar"
 import User from "../user/User"
 import NftCard from "../card/Card"
 import Trending from "../trending/Trending"
-import LiveAuctions from "../liveAuctions/Auctions";
+import LiveAuctions from "../auctions/Auctions";
 
 const nftCards=[ {
    "name":"Ivy",
