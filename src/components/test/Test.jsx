@@ -9,6 +9,7 @@ import Avatar from "../avatar/Avatar"
 import User from "../user/User"
 import NftCard from "../card/Card"
 import Trending from "../trending/Trending"
+import LiveAuctions from "../liveAuctions/LiveAuctions";
 
 const nftCards=[ {
    "name":"Ivy",
@@ -20,7 +21,8 @@ const nftCards=[ {
    },
    "mediaUrl":"images/nft.jpg",
    "price":1,
-   "currency":"ETH"
+   "currency":"ETH",
+   "timeLeft":100000
 },
 {
    "name":"Judie",
@@ -32,7 +34,8 @@ const nftCards=[ {
    },
    "mediaUrl":"images/nft.jpg",
    "price":2.3,
-   "currency":"ETH"
+   "currency":"ETH",
+   "timeLeft":100000
 },
 {
    "name":"Juniper",
@@ -44,7 +47,8 @@ const nftCards=[ {
    },
    "mediaUrl":"images/nft.jpg",
    "price":5,
-   "currency":"ETH"
+   "currency":"ETH",
+   "timeLeft":100000
 },
 {
    "name":"Maple",
@@ -56,7 +60,8 @@ const nftCards=[ {
    },
    "mediaUrl":"images/nft.jpg",
    "price":10,
-   "currency":"ETH"
+   "currency":"ETH",
+   "timeLeft":100000
 }];
 
 const card= {
@@ -76,7 +81,7 @@ const card= {
 export default function Test() {
   return (
     <div className={classNames(styles.wrapper)}>
-      <NftCard  {...card}/>
+      <LiveAuctions cards={nftCards}/>
     </div>
   );
 }
