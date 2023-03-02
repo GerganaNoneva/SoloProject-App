@@ -15,11 +15,9 @@ return (
         </div>
     </Grid>
     <Grid item xs={5} className={classNames(styles.containerStepHow)}>
-        <Grid container className={classNames(styles.steps)}>
         {items.map((item, index) => (
         <Step key={index} number={index + 1} title={item.title} description={item.description} />
         ))}
-        </Grid>
     </Grid>
 </Grid>
 );
